@@ -26,7 +26,7 @@ public class HomeActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(mContext, "Me clicaram", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, R.string.click, Toast.LENGTH_SHORT).show();
 
             }
         });
